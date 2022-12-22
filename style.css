@@ -1,0 +1,138 @@
+.calc {
+  max-width: 335px;
+  margin: 0 auto;
+  margin-top: 10vh;
+}
+
+.expression-block {
+  height: 25px;
+  margin-bottom: 5px;
+  padding: 4px 2px;
+}
+
+.expression {
+  font-size: 20px;
+  color: hsl(0, 0%, 40%);
+}
+
+.input {
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  font-size: 30px;
+  text-align: end;
+}
+
+.title {
+  font-size: 20px;
+}
+
+.errors {
+  padding: 0;
+  padding-left: 22px;
+}
+
+.error {
+  font-size: 18px;
+  margin-top: 12px;
+}
+
+.hide {
+  display: none;
+}
+
+.buttons-wrap {
+  display: grid;
+  grid-template-columns: repeat(4, 80px);
+  grid-template-rows: repeat(5, 50px);
+  row-gap: 5px;
+  column-gap: 5px;
+  grid-template-areas: 
+  "btn-7 btn-8 btn-9 plus"
+  "btn-4 btn-5 btn-6 minus"
+  "btn-1 btn-2 btn-3 multiply"
+  "btn-0 btn-0 dot divide"
+  "clear clear equal equal";
+  margin-top: 15px;
+}
+
+.button {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.button[disabled] {
+  cursor: not-allowed;
+}
+
+.btn-9 {
+  grid-area: btn-9;
+}
+
+.btn-8 {
+  grid-area: btn-8;
+}
+
+.btn-7 {
+  grid-area: btn-7;
+}
+
+.btn-6 {
+  grid-area: btn-6;
+}
+
+.btn-5 {
+  grid-area: btn-5;
+}
+
+.btn-4 {
+  grid-area: btn-4;
+}
+
+.btn-3 {
+  grid-area: btn-3;
+}
+
+.btn-2 {
+  grid-area: btn-2;
+}
+
+.btn-1 {
+  grid-area: btn-1;
+}
+
+.btn-0 {
+  grid-area: btn-0;
+}
+
+.btn-plus {
+  grid-area: plus;
+}
+
+.btn-minus {
+  grid-area: minus;
+}
+
+.btn-multiply {
+  grid-area: multiply;
+}
+
+.btn-divide {
+  grid-area: divide;
+}
+
+.btn-dot {
+  grid-area: dot;
+}
+
+.btn-clear {
+  grid-area: clear;
+}
+
+.btn-equal {
+  grid-area: equal;
+}
+
+
